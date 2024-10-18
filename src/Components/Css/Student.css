@@ -1,0 +1,26 @@
+.container {
+  background: #000;
+  min-height: 600px;
+  padding: 20px 50px;
+}.students {
+  display: flex;
+  align-items: center;
+}
+li{
+  margin-right: 80px;
+}
+li::marker{
+  color: #1d4f9b;
+}
+.id {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 18px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 18px;
+  color: #3881f0;
+}

@@ -1,10 +1,16 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Student from './Components/Student';
+import Details from './Components/Details';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <BrowserRouter>
+    <Student />
+      <Routes>
+        <Route path='/details/:value' element={<Details />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
